@@ -1,0 +1,36 @@
+---
+title: "Shiny Application and Reproducible Pitch"
+author: "Daniel Veit"
+date: "6/5/2022"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Project Objectivees
+
+This peer assessed assignment has two parts. 
+- First, you will create a Shiny application and deploy it on Rstudio's servers. 
+- Second, you will use Slidify or Rstudio Presenter to prepare a reproducible pitch presentation about your application.
+
+## How to Use the Application
+It is a simple application where you can choose the temperature you want to see and you can also see the average wind speed and average pressure. They are measurements in the State of Chihuahua, Mexico in the month of January of the year 2022.
+
+The application is running [here](https://armor-of-god.shinyapps.io/ResilienceApp/).
+
+The data used, ui.R and Server.R code are in my [github repository](https://github.com/armor-of-god/DevelopingDataProducts-CourseProject/tree/main/ResilienceApp).
+
+## Slide with R Output
+
+```{r cars, echo = TRUE}
+summary(cars)
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
